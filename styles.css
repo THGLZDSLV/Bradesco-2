@@ -1,0 +1,14 @@
+h1
+    {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 56px;
+    font-weight: 150px;
+    font-style: italic;
+    text-align:center;
+    line-height: 2;
+    text-decoration: underline;
+    background-color:aquamarine;
+    letter-spacing: 20px;}
+body {background-image:url(https://th.bing.com/th/id/OIP.8fcdUOEv_sgJ83XzoB3U0wHaEK?w=304&h=180&c=7&r=0&o=5&pid=1.7) ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 2000px;}
