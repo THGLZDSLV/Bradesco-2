@@ -1,0 +1,16 @@
+.cabecalho{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0px;}
+.nav{
+    display: inline-block;
+}
+.nav a{
+color: white;
+display: inline-block;
+text-align: left;
+padding-bottom: 10px;
+text-decoration: none;
+border: 2px rgba(128, 128, 128, 0.384) solid;
+width: 150px;}
