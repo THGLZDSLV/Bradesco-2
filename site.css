@@ -11,6 +11,11 @@ body {
     margin-top: 0;
     width: 100%;
     border: 1px rgb(61, 61, 61) solid;
+    text-shadow:
+    -1.4px -1.4px 0 black,
+     1.4px -1.4px 0 black,
+    -1.4px  1.4px 0 black,
+     1.4px  1.4px 0 black;
 }
 /*menu de navegação superior*/
 .cabecalho{
@@ -21,8 +26,7 @@ body {
 nav ul{
     list-style: none;
     text-align: center;
-    
-}
+    }
 nav ul li{
     display: inline-block;
     text-decoration: none;
@@ -74,7 +78,94 @@ nav ul li a:hover{
     justify-content: center;
     flex-direction: column;
     margin-left: 30.5%;
+    border-radius: 10px;
     }
 .sobrenos p{
     margin-top: 5px;
+}
+/*Sessão de serviços*/
+#servicos{
+    margin-top: 30px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 35px;
+    }
+.cards h3{
+    font-size: 20px;
+}
+.card1{
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    transition: transform 0.2s;
+    box-shadow: 0 8px 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card1:hover{
+    background-color: green;
+    transition: 10px;
+    transform: scale(1.03);
+}
+.card2{
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    transition: transform 0.2s;
+    box-shadow: 0 8px 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card2:hover{
+    background-color: green;
+    transition: 10px;
+    transform: scale(1.03);}
+.card3{
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    transition: transform 0.2s;
+    box-shadow: 0 8px 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card3:hover{
+    background-color: green;
+    transition: 10px;
+    transform: scale(1.03);}
+#forms {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 2px 10px;
+}
+.form {
+    max-width: 500px;
+    text-align: left;
+    margin: 0;
+}
+.form label, .form textarea{
+    display: block;
+    margin: 8px 0px;
+    align-content: center;
+    border-radius: 2px;
+}
+.form button{
+    border-radius: 5px;
+    background-color: rgb(30, 30, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: rgb(14, 14, 255);
 }
